@@ -1,5 +1,6 @@
 package com.example.device_list.controllers;
 
+import com.example.device_list.dto.DeviceDto;
 import com.example.device_list.entity.Device;
 import com.example.device_list.services.DeviceService;
 import lombok.AllArgsConstructor;
@@ -19,7 +20,7 @@ public class DeviceController {
     private DeviceService deviceService;
 
     @GetMapping
-    public ResponseEntity<List<Device>> findAll(){
+    public ResponseEntity<List<DeviceDto>> findAll(){
         return new ResponseEntity<>(deviceService.findAll(), HttpStatus.OK);
     }
 }

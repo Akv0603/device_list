@@ -2,6 +2,8 @@ package com.example.device_list.entity;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.Setter;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
@@ -31,4 +33,5 @@ public class Model {
     @ManyToOne
     @JoinColumn(name = "device_id", nullable = false)
     private Device device;
+
 }

@@ -19,6 +19,8 @@ public class Device {
 
     private String name;
 
+    private String country;
+
     private String manufacturer;
 
     @Column(name = "online_order")
@@ -28,7 +30,5 @@ public class Device {
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "device")
     private List<Model> models = new ArrayList<>();
-
-
 
 }
