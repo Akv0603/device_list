@@ -2,9 +2,15 @@ package com.example.device_list;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class DeviceListApplication {
+public class DeviceListApplication extends SpringBootServletInitializer {
+
+    protected org.springframework.boot.builder.SpringApplicationBuilder configure(SpringApplicationBuilder builder){
+        return builder.sources(DeviceListApplication.class);
+    }
 
     public static void main(String[] args) {
         SpringApplication.run(DeviceListApplication.class, args);
