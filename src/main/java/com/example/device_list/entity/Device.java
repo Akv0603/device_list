@@ -2,9 +2,11 @@ package com.example.device_list.entity;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.NonNull;
 
 import javax.persistence.*;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 @Data
@@ -30,5 +32,6 @@ public class Device {
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "device")
     private List<Model> models = new ArrayList<>();
+
 
 }
