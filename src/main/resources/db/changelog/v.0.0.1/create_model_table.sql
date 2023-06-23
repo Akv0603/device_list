@@ -7,5 +7,7 @@ CREATE TABLE IF NOT EXISTS model
     size NUMERIC(10, 2) NOT NULL,
     price NUMERIC(10, 2) NOT NULL,
     availability BOOLEAN NOT NULL,
+    category VARCHAR(120) NOT NULL,
+    technology VARCHAR(120) NOT NULL,
     device_id INT REFERENCES device(id) NOT NULL
 );

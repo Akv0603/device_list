@@ -16,6 +16,8 @@ public class DeviceMapper {
         modelDto.setSize(model.getSize());
         modelDto.setPrice(model.getPrice());
         modelDto.setAvailability(model.isAvailability());
+        modelDto.setCategory(model.getCategory());
+        modelDto.setTechnology(model.getTechnology());
         return modelDto;
     }
 

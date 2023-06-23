@@ -30,6 +30,10 @@ public class Model {
 
     private boolean availability;
 
+    private String category;
+
+    private String technology;
+
     @ManyToOne
     @JoinColumn(name = "device_id", nullable = false)
     private Device device;
