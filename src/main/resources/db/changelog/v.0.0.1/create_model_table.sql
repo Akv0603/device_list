@@ -13,5 +13,7 @@ CREATE TABLE IF NOT EXISTS model
     mode INT,
     door_count INT,
     compressor VARCHAR(120),
+    memory INT,
+    camera INT,
     device_id INT REFERENCES device(id) NOT NULL
 );

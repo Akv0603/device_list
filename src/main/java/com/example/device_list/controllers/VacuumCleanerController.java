@@ -2,7 +2,6 @@ package com.example.device_list.controllers;
 
 import com.example.device_list.dto.DeviceDto;
 import com.example.device_list.dto.ModelDto;
-import com.example.device_list.dto.modelsDto.TVDeviceDto;
 import com.example.device_list.dto.modelsDto.VacuumCleanerDeviceDto;
 import com.example.device_list.services.VacuumCleanerService;
 import lombok.AllArgsConstructor;

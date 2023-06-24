@@ -3,7 +3,6 @@ package com.example.device_list.controllers;
 import com.example.device_list.dto.DeviceDto;
 import com.example.device_list.dto.ModelDto;
 import com.example.device_list.dto.modelsDto.FridgeDeviceDto;
-import com.example.device_list.dto.modelsDto.VacuumCleanerDeviceDto;
 import com.example.device_list.services.FridgeService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;

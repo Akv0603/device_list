@@ -21,3 +21,11 @@ INSERT INTO model (name, serial, color, size, price, door_count, compressor, ava
 ('LG GC-B459SQCL', 'SQL123POS2RE30', 'белый', 337, 59999, 2, 'инвертор', true, 8),
 ('Liebherr T 1400', 'CXZA88FG03N2E', 'белый', 136, 31299, 1, 'инвертор', false, 9),
 ('Liebherr SRBsfe 5220', 'LPK2UZH23SN7A4H', 'серебристый', 377, 83999, 2, 'линейный', true, 9);
+
+INSERT INTO model (name, serial, color, size, price, memory, camera, availability, device_id) VALUES
+('realme 9 Pro+', 'REA1LM6E9PRO1', 'зеленый', 6.4, 22999, 128, 3, true, 10),
+('realme GT Neo 3T', 'REA34ME2666ENEO', 'черный', 6.62, 29999, 256, 3, true, 10),
+('HUAWEI nova 10', 'HU1AW10IO54NO9', 'черный', 6.67, 33999, 128, 3, true, 11),
+('HUAWEI Mate50 Pro', 'MA50TE2P45RO', 'белый', 6.74, 64999, 256, 4, false, 11),
+('POCO C40', 'PO456CO3X3NFC90', 'серый', 6.71, 7999, 64, 2, true, 12),
+('POCO X5 5G', 'PO890COX55GP1R', 'голубой', 6.67, 23999, 128, 3, true, 12);

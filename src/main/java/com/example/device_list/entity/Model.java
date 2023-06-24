@@ -43,6 +43,10 @@ public class Model {
 
     private String compressor;
 
+    private Integer memory;
+
+    private Integer camera;
+
     @ManyToOne
     @JoinColumn(name = "device_id", nullable = false)
     private Device device;

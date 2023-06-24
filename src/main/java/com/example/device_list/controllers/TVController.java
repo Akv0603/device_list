@@ -4,7 +4,6 @@ import com.example.device_list.dto.DeviceDto;
 import com.example.device_list.dto.ModelDto;
 import com.example.device_list.dto.modelsDto.TVDeviceDto;
 import com.example.device_list.services.TVService;
-import liquibase.pro.packaged.M;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -35,4 +35,12 @@ public class ModelDto extends AbstractModelDto {
     //доп параметр для холодильника
     @Nullable
     private String compressor;
+
+    //доп параметр для смартфона
+    @Nullable
+    private Integer memory;
+
+    //доп параметр для смартфона
+    @Nullable
+    private Integer camera;
 }

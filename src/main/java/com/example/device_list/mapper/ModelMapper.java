@@ -30,6 +30,8 @@ public class ModelMapper {
         modelDto.setMode(model.getMode());
         modelDto.setDoorCount(model.getDoorCount());
         modelDto.setCompressor(model.getCompressor());
+        modelDto.setMemory(model.getMemory());
+        modelDto.setCamera(model.getCamera());
         return modelDto;
     }
 }
