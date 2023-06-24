@@ -38,6 +38,11 @@ public class Model {
 
     private Integer mode;
 
+    @Column(name = "door_count")
+    private Integer doorCount;
+
+    private String compressor;
+
     @ManyToOne
     @JoinColumn(name = "device_id", nullable = false)
     private Device device;

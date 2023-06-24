@@ -11,5 +11,7 @@ CREATE TABLE IF NOT EXISTS model
     technology VARCHAR(120),
     capacity NUMERIC(4, 2),
     mode INT,
+    door_count INT,
+    compressor VARCHAR(120),
     device_id INT REFERENCES device(id) NOT NULL
 );

@@ -27,4 +27,12 @@ public class ModelDto extends AbstractModelDto {
     //доп параметр для пылесоса
     @Nullable
     private Integer mode;
+
+    //доп параметр для холодильника
+    @Nullable
+    private Integer doorCount;
+
+    //доп параметр для холодильника
+    @Nullable
+    private String compressor;
 }

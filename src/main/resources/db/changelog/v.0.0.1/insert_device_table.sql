@@ -4,10 +4,10 @@ INSERT INTO device (name, country, manufacturer, online_order, installment) VALU
 ('Телевизор', 'Китай', 'LG', true, true),
 ('Пылесос', 'Германия', 'Bosch', true, true),
 ('Пылесос', 'Китай', 'Starwind', false, true),
-('Пылесос', 'Китай', 'Hyundai', true, false);
--- ('Холодильник', 'Китай', 'LG', true, false),
--- ('Холодильник', 'Китай', 'LG', true, false),
--- ('Холодильник', 'Китай', 'LG', true, false),
+('Пылесос', 'Китай', 'Hyundai', true, false),
+('Холодильник', 'Россия', 'Beko', true, false),
+('Холодильник', 'Китай', 'LG', true, false),
+('Холодильник', 'Болгария', 'Liebherr', true, false);
 -- ('Смартфон', 'Китай', 'LG', true, false),
 -- ('Смартфон', 'Китай', 'LG', true, false),
 -- ('Смартфон', 'Китай', 'LG', true, false),

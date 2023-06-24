@@ -13,3 +13,11 @@ INSERT INTO model (name, serial, color, size, price, capacity, mode, availabilit
 ('Starwind SCV2082', 'STRW111C5241930', 'белый', 3, 5799, 3.5, 2, true, 5),
 ('Hyundai H-VCC03', 'FX12MOP3LKKJ02', 'красный', 3.2, 3499, 2, 1, true, 6),
 ('Hyundai H-VCC55', '555MKLXXLHI90', 'серый', 2, 5999, 2.5, 2, true, 6);
+
+INSERT INTO model (name, serial, color, size, price, door_count, compressor, availability, device_id) VALUES
+('Beko RCSK310M20W', 'AMD691J6XEOE23', 'белый', 300, 24999, 2, 'инвертор', true, 7),
+('Beko RCNK310E20VS', '453FF2ZZ21WD66G', 'серебристый', 276, 33999, 2, 'линейный', true, 7),
+('LG GA-B459MLSL', 'KRS79JO543SDF9', 'серый', 341, 57799, 2, 'инвертор', true, 8),
+('LG GC-B459SQCL', 'SQL123POS2RE30', 'белый', 337, 59999, 2, 'инвертор', true, 8),
+('Liebherr T 1400', 'CXZA88FG03N2E', 'белый', 136, 31299, 1, 'инвертор', false, 9),
+('Liebherr SRBsfe 5220', 'LPK2UZH23SN7A4H', 'серебристый', 377, 83999, 2, 'линейный', true, 9);

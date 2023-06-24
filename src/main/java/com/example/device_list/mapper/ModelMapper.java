@@ -28,6 +28,8 @@ public class ModelMapper {
         modelDto.setTechnology(model.getTechnology());
         modelDto.setCapacity(model.getCapacity());
         modelDto.setMode(model.getMode());
+        modelDto.setDoorCount(model.getDoorCount());
+        modelDto.setCompressor(model.getCompressor());
         return modelDto;
     }
 }
