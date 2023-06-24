@@ -26,7 +26,6 @@ public interface TVRepository extends CrudRepository<Device, Integer>, ModelRepo
     List<Model> findAllByColor(String color);
 
     @Query("SELECT m FROM Model m JOIN FETCH m.device d WHERE d.name = 'Телевизор' AND m.size = :size")
-
     @Override
     List<Model> findAllBySize(BigDecimal size);
 
@@ -43,4 +42,5 @@ public interface TVRepository extends CrudRepository<Device, Integer>, ModelRepo
 
     @Query("SELECT m FROM Model m JOIN FETCH m.device d WHERE d.name = 'Телевизор' AND LOWER(m.technology) = LOWER(:technology)")
     List<Model> findAllByTechnology(String technology);
+
 }

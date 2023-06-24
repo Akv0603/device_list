@@ -26,6 +26,8 @@ public class ModelMapper {
         modelDto.setAvailability(model.isAvailability());
         modelDto.setCategory(model.getCategory());
         modelDto.setTechnology(model.getTechnology());
+        modelDto.setCapacity(model.getCapacity());
+        modelDto.setMode(model.getMode());
         return modelDto;
     }
 }

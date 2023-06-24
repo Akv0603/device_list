@@ -33,5 +33,4 @@ public class Device {
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "device")
     private List<Model> models = new ArrayList<>();
 
-
 }

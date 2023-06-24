@@ -34,6 +34,10 @@ public class Model {
 
     private String technology;
 
+    private BigDecimal capacity;
+
+    private Integer mode;
+
     @ManyToOne
     @JoinColumn(name = "device_id", nullable = false)
     private Device device;

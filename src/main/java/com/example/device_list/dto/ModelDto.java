@@ -4,6 +4,8 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
 import org.springframework.lang.Nullable;
 
+import java.math.BigDecimal;
+
 @Data
 @JsonInclude(JsonInclude.Include.NON_DEFAULT)
 public class ModelDto extends AbstractModelDto {
@@ -17,4 +19,12 @@ public class ModelDto extends AbstractModelDto {
 //доп параметр для тв
     @Nullable
     private String technology;
+
+    //доп параметр для пылесоса
+    @Nullable
+    private BigDecimal capacity;
+
+    //доп параметр для пылесоса
+    @Nullable
+    private Integer mode;
 }
