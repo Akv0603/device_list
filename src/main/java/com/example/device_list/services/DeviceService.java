@@ -8,6 +8,7 @@ import com.example.device_list.mapper.ModelMapper;
 import com.example.device_list.repository.DeviceRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.math.BigDecimal;
 import java.util.List;

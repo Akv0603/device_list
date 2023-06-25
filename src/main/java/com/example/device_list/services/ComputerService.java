@@ -3,6 +3,7 @@ package com.example.device_list.services;
 import com.example.device_list.dto.DeviceDto;
 import com.example.device_list.dto.ModelDto;
 import com.example.device_list.dto.modelsDto.ComputerDeviceDto;
+import com.example.device_list.dto.modelsDto.ComputerModelDto;
 import com.example.device_list.entity.Device;
 import com.example.device_list.mapper.DeviceMapper;
 import com.example.device_list.mapper.ModelMapper;
@@ -108,4 +109,5 @@ public class ComputerService implements GeneralModelService<ModelDto> {
         computerRepository.save(computer);
         return computerDeviceDto;
     }
+
 }
