@@ -2,13 +2,11 @@ package com.example.device_list.services;
 
 import com.example.device_list.dto.DeviceDto;
 import com.example.device_list.dto.ModelDto;
-import com.example.device_list.dto.modelsDto.FridgeDeviceDto;
 import com.example.device_list.dto.modelsDto.PhoneDeviceDto;
 import com.example.device_list.entity.Device;
 import com.example.device_list.mapper.DeviceMapper;
 import com.example.device_list.mapper.ModelMapper;
-import com.example.device_list.mapper.models.FridgeMapper;
-import com.example.device_list.mapper.models.PhoneMapper;
+import com.example.device_list.mapper.fromDtoMapper.PhoneMapper;
 import com.example.device_list.repository.PhoneRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;

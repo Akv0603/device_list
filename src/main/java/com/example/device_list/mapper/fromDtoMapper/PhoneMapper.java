@@ -1,4 +1,4 @@
-package com.example.device_list.mapper.models;
+package com.example.device_list.mapper.fromDtoMapper;
 
 import com.example.device_list.dto.modelsDto.PhoneDeviceDto;
 import com.example.device_list.dto.modelsDto.PhoneModelDto;

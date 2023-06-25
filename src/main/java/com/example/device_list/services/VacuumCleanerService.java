@@ -6,7 +6,7 @@ import com.example.device_list.dto.modelsDto.VacuumCleanerDeviceDto;
 import com.example.device_list.entity.Device;
 import com.example.device_list.mapper.DeviceMapper;
 import com.example.device_list.mapper.ModelMapper;
-import com.example.device_list.mapper.models.VacuumCleanerMapper;
+import com.example.device_list.mapper.fromDtoMapper.VacuumCleanerMapper;
 import com.example.device_list.repository.VacuumCleanerRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
