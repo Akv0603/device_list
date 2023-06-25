@@ -1,7 +1,5 @@
 package com.example.device_list.mapper.models;
 
-import com.example.device_list.dto.modelsDto.FridgeDeviceDto;
-import com.example.device_list.dto.modelsDto.FridgeModelDto;
 import com.example.device_list.dto.modelsDto.PhoneDeviceDto;
 import com.example.device_list.dto.modelsDto.PhoneModelDto;
 import com.example.device_list.entity.Device;

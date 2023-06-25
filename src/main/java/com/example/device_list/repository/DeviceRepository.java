@@ -4,7 +4,6 @@ import com.example.device_list.entity.Device;
 import com.example.device_list.entity.Model;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
-import org.springframework.data.repository.query.Param;
 
 import java.math.BigDecimal;
 import java.util.List;

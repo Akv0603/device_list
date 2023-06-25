@@ -24,6 +24,7 @@ public class DeviceMapper {
         modelDto.setCompressor(model.getCompressor());
         modelDto.setMemory(model.getMemory());
         modelDto.setCamera(model.getCamera());
+        modelDto.setProcessor(model.getProcessor());
         return modelDto;
     }
 

@@ -15,5 +15,6 @@ CREATE TABLE IF NOT EXISTS model
     compressor VARCHAR(120),
     memory INT,
     camera INT,
+    processor VARCHAR(120),
     device_id INT REFERENCES device(id) NOT NULL
 );

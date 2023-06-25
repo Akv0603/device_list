@@ -29,3 +29,11 @@ INSERT INTO model (name, serial, color, size, price, memory, camera, availabilit
 ('HUAWEI Mate50 Pro', 'MA50TE2P45RO', 'белый', 6.74, 64999, 256, 4, false, 11),
 ('POCO C40', 'PO456CO3X3NFC90', 'серый', 6.71, 7999, 64, 2, true, 12),
 ('POCO X5 5G', 'PO890COX55GP1R', 'голубой', 6.67, 23999, 128, 3, true, 12);
+
+INSERT INTO model (name, serial, color, size, price, category, processor, availability, device_id) VALUES
+('DEXP Atlas H386', 'ATL0D306DK1Y1', 'черный', 16, 26599, 'ПК', 'Core i5-10400', true, 13),
+('DEXP Aquilon O291', 'AQUD6806F567KL', 'черный', 8, 21399, 'ПК', 'Core i3-10105', false, 13),
+('Acer Aspire 3 A31523R8XS', 'A31523R8XS12', 'черный', 12, 51799, 'Ноутбук', 'Ryzen 5 3500U', true, 14),
+('Acer Nitro 5 AN51546R7XU', 'AN51546R7XU', 'черный', 16, 70999, 'Ноутбук', 'Ryzen 5 6600H', true, 14),
+('MSI Modern 15B12M211RU', '115B12M211RU', 'серый', 8, 39999, 'Ноутбук', 'Core i3-1215U', false, 15),
+('MSI Katana GF7612UC421RU', 'GF7612UC421RU', 'черный', 32, 93999, 'Ноутбук', 'Core i5-12450H', true, 15);

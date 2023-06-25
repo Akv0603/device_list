@@ -47,6 +47,8 @@ public class Model {
 
     private Integer camera;
 
+    private String processor;
+
     @ManyToOne
     @JoinColumn(name = "device_id", nullable = false)
     private Device device;

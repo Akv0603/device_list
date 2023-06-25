@@ -2,9 +2,7 @@ package com.example.device_list.controllers;
 
 import com.example.device_list.dto.DeviceDto;
 import com.example.device_list.dto.ModelDto;
-import com.example.device_list.entity.Device;
 import com.example.device_list.services.DeviceService;
-import liquibase.pro.packaged.M;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

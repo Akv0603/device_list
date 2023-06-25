@@ -33,4 +33,12 @@ public class Device {
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "device")
     private List<Model> models = new ArrayList<>();
 
+    @NonNull
+    public Device setModels(Collection<Model> models) {
+        models.forEach(model -> model.setDevice(this));
+        this.models.clear();
+        this.models.addAll(models);
+        return this;
+    }
+
 }
